@@ -1,0 +1,194 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main Navigation-Bar */
+nav {
+  line-height: 80px;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+}
+label li.one {
+    display: flex;
+}
+li.one h1 {
+    font-size: 70px;
+}
+h1#m {
+    color: red;
+    margin-left: 40px;
+    position: absolute;
+}
+h1#a {
+    color: darkblue;
+    position: absolute;
+    margin-left: 80px;
+}
+h1#o {
+    color: grey;
+    position: absolute;
+    margin-left: 100px;
+}
+h5 {
+    margin-left: 150px;
+    margin-top: 17px;
+}
+.navbar {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 900px;
+}
+ul.navbar li.nav-item a#hover.nav-link {
+    text-decoration: none;
+}
+.nav-link {
+    padding-left: 30px;
+}
+ul li {
+    list-style: none;
+}
+a.nav-link {
+  color: darkred;
+  font-weight: bold;
+  font-size: 25px;
+}
+a#hover.active,
+ a#hover:hover {
+  color: greenyellow;
+} 
+
+/* Hero */
+#hero {
+    background-image: url("https://raw.githubusercontent.com/Maureen-1998DEV/My-PortFolio/master/Assetes/ruijia-wang-h9gXt0JmVn0-unsplash.jpg");
+    padding-top: 80px;
+    background-size: cover;
+    /* overflow: hidden; */
+    width: 100%;
+    background-position: bottom;
+}
+.partone {
+    background-color: rgba(0, 35, 82, 0.7);
+    z-index:999;
+    height: 800px;
+    text-align: center;
+    color: rgb(178, 209, 206);
+    font-size: 30px;
+}
+.welcome {
+    padding-top: 300px;
+}
+
+/* Article */
+.top-space {
+    display: flex;
+    background-color:black;
+    padding: 20px 20px 20px 20px;
+}
+div.top-space div img {
+    height: 280px;
+    width: 260px;
+    margin: 40px 40px 20px 20px;
+    border: 10px solid white;
+}
+div.top-space {
+    padding-top: 78px;
+
+}
+div.top-space div div h1 {
+    padding-left: 400px;
+    color: rgb(178, 209, 206);
+    font-size: 40px;
+}
+div#about.parttwo div p {
+    font-size: 20px;
+    color: white;
+}
+/* .parttwo{ 
+    display: flex;
+}
+.About-me{
+    color: rgb(57, 21, 90);
+}
+.parttwo {
+    padding-right: 20px;
+    border-radius: 100px 100px 100px 100px;  
+} .parttwo img{
+    padding-right: 20px;
+    border-radius: 75px 75px 75px 75px; 
+}
+.parttwo .slide{
+    color: rgb(7, 41, 54);
+    text-align: start;
+} */
+
+
+
+/* Extended Self Info */
+
+#profile {
+    display: flex;
+}
+.partthree {
+    background-color: black;
+}
+div#profile.partthree div.container {
+    color: white;
+    padding: 50px;
+    font-weight: bold;
+}
+div#four.container img {
+    height: 380px;
+    width: 360px;
+    margin: 40px 40px 20px 20px;
+    border: 10px solid white;
+}
+div.container h2 {
+    color: rgb(178, 209, 206);
+
+}
+.partthree .text h1{
+    text-align: center;
+    text-shadow:  2px 2px 2px  blue;
+    font-size: 50px;
+    
+}
+
+}
+
+/* .container-fluid .row.col-sm-4 .left .img-thumbnail{
+    height: 300px !important;
+}
+.container-m-5.row.col-md-4{
+    border-radius: 20px 20px 20px 20px !important;
+    background-color: burlywood !important;
+}
+
+ .footer{
+     background-color: rgb(3, 3, 46);
+     display: flex;
+     justify-content: space-around;
+     color: whitesmoke;
+ 
+    
+ } */
